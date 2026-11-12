@@ -44,9 +44,10 @@ This is an unofficial fan mod. It isn't made by or connected with the developers
    - **It must be the x64 version.** OPERATOR is a 64-bit game, so the x86 BepInEx won't load and the mod won't start. If you installed x86 by mistake: delete the `BepInEx` folder and `winhttp.dll` from the game folder, install the x64 build, then add the mod again.
    - Unzip it into the OPERATOR game folder, next to `OPERATOR.exe`. To find that folder: in Steam, right-click OPERATOR, then **Manage → Browse local files**.
    - Start the game once and wait at the main menu. The first start takes a few minutes while BepInEx sets itself up. Then quit.
-2. **Install the mod:**
+2. **Install the mod and OpenXR installer:**
    - Download the latest `OPERATOR-VR-Mod-vX.Y.Z.zip` from the **Releases** page on the right.
    - Unzip it into the game folder, so that `BepInEx\plugins\OperatorVR\OperatorVR.dll` exists.
+   - In that same game folder, double-click `Install-OpenXR.bat`. It downloads the official Unity OpenXR 1.19.0 files and installs them where the mod expects them. Internet access is needed for this one-time step.
 3. **Install the pad layout (optional, recommended):** see [Pad layout](#pad-layout) below.
 4. **Start VR:**
    - Start your VR runtime first (for example, connect Virtual Desktop).
